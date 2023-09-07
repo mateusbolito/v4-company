@@ -21,7 +21,7 @@ text-decoration: none;
 }
 
 body {
-background-color: #232323;
+background-color: #1A1A1A;
  }
  p {
 font-family: 'Plus Jakarta Sans', sans-serif;

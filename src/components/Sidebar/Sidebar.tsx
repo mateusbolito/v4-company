@@ -1,4 +1,9 @@
-import { ContainerSidebar, DescriptionPerfil, PerfilSection } from "./styles";
+import {
+  ContainerSidebar,
+  DescriptionPerfil,
+  PerfilImage,
+  PerfilSection,
+} from "./styles";
 import mateus from "../../assets/mateus.jpg";
 import {
   CellSignalFull,
@@ -11,14 +16,14 @@ import {
 export function Sidebar() {
   return (
     <ContainerSidebar>
-      <div>
+      <PerfilImage>
         <img src={mateus} alt="foto" />
-      </div>
+      </PerfilImage>
 
       <PerfilSection>
         <span>Mateus Bolito</span>
         <p>Desenvolvedor Web</p>
-        <h4>v4</h4>
+        <h4>V4</h4>
       </PerfilSection>
 
       <DescriptionPerfil>

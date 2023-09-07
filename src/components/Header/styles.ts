@@ -3,62 +3,50 @@ import { styled } from "styled-components";
 
  export const ContainerHeader = styled.div`
   width: 100%;
-  height: 65.5px;
+  height: 4.05rem;
   background-color: #131313;
-  cursor: pointer;
-  img {
-  width: 130px;
-  height: 16px;
-  margin-top: 22px;
-  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+  margin-bottom: 20px;
 
-  }
+  align-items: center;
+
+  img {
+    cursor: pointer;
+}
 
  > div {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 12px;
- margin-left: 900px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
  
 span {
 background: #373737;
 border-radius: 50%;
-margin-top: 17px;
+cursor: pointer;
 
-
-width: 30px;
-height: 30px;
-margin-top: -25px;
+width: 1.875rem;
+height: 1.875rem;
 display: flex;
 align-items: center;
 justify-content: center;
 
+&:hover {
+    opacity: 0.7;
+}
 
 svg {
-width: 12px;
-height: 12px;
 color: #26C666;
-
 } 
-
-
-
  }
-
 }
 
  `
 export const GrennColor = styled.div`
 background-color: #26C666;
 border-radius: 50%;
-margin-top: 17px;
 
-width: 40px;
-height: 40px;
-margin-top: -25px;
-display: flex;
-align-items: center;
-justify-content: center;
-
+width: 2.5rem;
+height: 2.5rem;
 `
