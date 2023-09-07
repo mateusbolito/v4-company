@@ -89,7 +89,7 @@ ${IconContainer}:hover {
 
 export const DescriptionPerfil = styled.div`
 width: 100%;
-height: 25px;
+height: 1.563rem;
 padding: 0.5rem 0.625rem;
 border-radius: 19px;
 color: #616060;
@@ -104,8 +104,8 @@ margin-bottom: 4px;
 }
 
 span {
-font-size: 10px;
-line-height: 13px;
+font-size: 0.625rem;
+line-height: 0.813rem;
 color: #FFFFFF;
 display: flex;
 align-items: center;

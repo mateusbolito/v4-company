@@ -4,9 +4,9 @@ export const ContainerArticle = styled.div`
 display: flex;
 background: #232323;
 width: auto;
-height: 90px;
-border-radius: 10px;
-margin-bottom: 8px;
+height: 5.625rem;
+border-radius: 0.625rem;
+margin-bottom: 0.5rem;
 
   &:hover {
     cursor: pointer;
@@ -19,13 +19,13 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 gap: 10px;
-margin-left: 22px;
+margin-left: 1.375rem;
 
  h1 {
     font-family: Plus Jakarta Sans;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 1.188rem;
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
@@ -33,9 +33,9 @@ margin-left: 22px;
 
   p {
     font-family: Plus Jakarta Sans;
-    font-size: 11px;
+    font-size: 0.688rem;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 0.875;
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
